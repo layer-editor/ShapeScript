@@ -44,5 +44,6 @@ let package = Package(
             path: "ShapeScriptTests",
             exclude: ["TestShapes/", "Stars1.jpg", "EdgeOfTheGalaxyRegular-OVEa6.otf"]
         ),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
